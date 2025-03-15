@@ -2,7 +2,7 @@ let tg = window.Telegram.WebApp;
 
 tg.expand()
 
-let btn = document = querySelector("#click")
+let btn = document.querySelector("#click")
 
 btn.onclick = () => {
     if (tg.MainButton.isVisible) {
