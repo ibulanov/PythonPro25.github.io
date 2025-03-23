@@ -6,34 +6,57 @@
     <title>Title</title>
 </head>
 <body>
-   <div class="header">
+    <form action="">
+        <div class="input">
+            <label>Введите имя:</label>
+            <input id="user-name" type="text">
+        </div>
+        <div class="input">
+            <label>Введите почту:</label>
+            <input id="user-email" type="email">
+        </div>
+        <div class="input">
+            <label>Введите номер телефона:</label>
+            <input id="user-phone" type="number">
+        </div>
+    </form>
+    <div class="header">
        <h1>Покупка билетов</h1>
        <p>Сервис для покупки билетов<p>
-   </div>
-   <div class = "inner">
+    </div>
+    <div class = "inner">
       <div class = "item">
           Москва - Санкт-Петербург - 1900 руб
-          <button class="btn" id="btn1"> Заказать</button>
+          <button class="btn" id="btn1"> Добавить в корзину</button>
       </div>
       <div class = "item">
           Ростов-на-Дону - Краснодар - 1179 руб
-          <button class="btn" id="btn2"> Заказать</button>
+          <button class="btn" id="btn2"> Добавить в корзину</button>
       </div>
       <div class = "item">
          Кисловодск - Краснодар - 2179 руб
-         <button class="btn" id="btn3"> Заказать</button>
+         <button class="btn" id="btn3"> Добавить в корзину</button>
       </div>
       <div class = "item">
          Волгоград - Волгодонск - 11 руб
-         <button class="btn" id="btn4"> Заказать</button>
+         <button class="btn" id="btn4"> Добавить в корзину</button>
       </div>
-   </div>
-   <div class="footer">
+    </div>
+    <ul class="usercard" id="usercard">
+        Ваши заказы:
+    </ul>
+    <div id="result">
+        <button id="submit">
+            Купить
+        </button>
+    </div>
+    <div class="footer">
        <h1>Информация о сервисе</h1>
        <p>Номер для связи - 322 223 322 223</p>
        <p>ВК - vk.com/durov</p>
-   </div>
-   <script src = "https://telegram.org/js/telegram-web-app.js"></script>
-   <script src="script.js"></script>
+    </div>
+    <script src = "https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
